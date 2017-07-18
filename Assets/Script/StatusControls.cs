@@ -31,9 +31,12 @@ public class StatusControls : MonoBehaviour
 		
 	}
 
-    public int GetCurrentHp()
+    public int CurrentHp
     {
-        return hp;
+        get
+        {
+            return hp;
+        }
     }
 
     public void HpIncrease(int amount)
@@ -49,9 +52,12 @@ public class StatusControls : MonoBehaviour
         }
     }
 
-    public int GetCurrentMp()
+    public int CurrentMp
     {
-        return mp;
+        get
+        {
+            return mp;
+        }
     }
 
 
