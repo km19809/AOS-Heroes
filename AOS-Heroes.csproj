@@ -80,13 +80,11 @@
   <ItemGroup>
     <Compile Include="Assets\Script\AnimationControl.cs" />
     <Compile Include="Assets\Script\Minion.cs" />
-    <Compile Include="Assets\Script\MinionActivity.cs" />
     <Compile Include="Assets\Script\PathRenderer.cs" />
     <Compile Include="Assets\Script\PathRendererByTile.cs" />
     <Compile Include="Assets\Script\PlayerControl.cs" />
     <Compile Include="Assets\Script\PlayerControlByTile.cs" />
     <Compile Include="Assets\Script\StatusControls.cs" />
-    <Compile Include="Assets\Script\T2Tower.cs" />
     <Compile Include="Assets\Script\Tower.cs" />
   </ItemGroup>
   <ItemGroup>

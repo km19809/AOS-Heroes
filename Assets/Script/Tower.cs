@@ -9,6 +9,16 @@ public class Tower : StatusControls {
     public float timeBetweenWaves = 5f;
     private float countDown = 2f;
 
+    public int towerHp=2000;
+    public int towerAtk = 50;
+    
+
+    private void Awake()//earlier than statuscontrols.start
+    {
+        maxHp = towerHp;
+        atk = towerAtk;
+    }
+
     void Update()
     {
         if (countDown <= 0f)
