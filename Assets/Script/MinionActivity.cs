@@ -41,7 +41,6 @@ public class MinionActivity : StatusControls
 	// Update is called once per frame
 	void Update () {
 	    
-
 	}
 
     void Idle()
